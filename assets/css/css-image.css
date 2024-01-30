@@ -1,0 +1,45 @@
+/* image properties */
+/* cssの設定がhtmlより優先される */
+.photo-1 {
+    width: 100%;
+    height: 300px;
+}
+
+.photo-2 {
+    width: 450px;
+    height: 450px;
+}
+
+/* background-image */
+.bg-image {
+    /* .. = older folder */
+    background-image: url(../images/gar.jpg);
+    width: 700px;
+    height: 500px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* x=横
+    /* background-repeat: repeat-x; */
+    /* y=縦 */
+    /* background-repeat: repeat-y; */ 
+    /* cover=画像の中央部を表示 */
+    background-size: cover;
+    background-size: contain;
+}
+
+.bg-attachement {
+    width: 800px;
+    height: 600px;
+    background-image: url(../images/junk.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.bg-shothand {
+    width: 300px;
+    height: 400px;
+    background: aqua url(../images/rabbit-one.jpeg) no-repeat bottom;
+    background-size: contain;
+}

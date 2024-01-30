@@ -1,0 +1,32 @@
+* {
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+
+.person {
+    border: 2px solid lightgray;
+    width: 250px;
+    /* height: 300px; */
+    height: 400px;
+    float: left;
+    padding: 10px;
+    /* display: inline-block; */
+    /* inline-block is not good for layouting */
+    /* use float for layouting */
+    box-shadow: 1px 2px 5px gray;
+}
+
+/* border-radius: 10px 10px 0px 0px; */
+
+.name {
+    font-weight: bold;
+}
+
+.job {
+    font-family: serif;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+}

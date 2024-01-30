@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- 2. Internal CSS = style tags -> write inside the head tag -->
+    <style>
+        h2 {
+            background-color: red;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Type of CSS</h1>
+    <!-- 
+         1. Inline CSS = style attributes ->higher priority/hierarquey
+         2. Internal CSS = style tags -> write inside the head tag
+         3. External CSS = css file
+     -->
+
+    <!-- 1. Inline CSS = style attributes ->higher priority -->
+    <h2 style="background-color: green;">Inline CSS</h2>
+
+    <!-- 2. Internal CSS = style tags -> write inside the head tag -->
+    <h2>Internal CSS</h2>
+
+    <!-- 3. External CSS = css file -->
+    <h2>External CSS</h2>
+    <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, modi.</p>
+    <p class="para">Lorem ipsum dolor sit amet.
+    </p>
+    <a href="" class="para">Learn more</a>
+
+
+    <h3 id="special">I have an ID attribute</h3>
+    <h4 class="second-priority" id="first-priority">About selecter's priority</h4>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+/* selecters */
+/* * = all element in the documents */
+/* cssが設定されていない部分に影響する＝すでにcss設定されているところは無影響 */
+*{
+    /* universal */
+    text-decoration: underline;
+    color: green;
+}
+
+/* elemment */
+
+p {
+    background-color: aqua;   
+}
+
+.para {
+    color: red;
+}
+
+/* id = # */
+#special {
+    background-color: purple;
+}
+
+/* priority / top level selecter */
+/* 優先順位-> id > selecter > element */
+
+#first-priority {
+    background-color: yellow;
+}
+
+.second-priority {
+    background-color: turquoise;
+}
+    /* 最後のセレクターが優先される */
+h4 {
+    background-color: magenta;
+}
+h4 {
+    background-color: thistle;
+    color: red;
+}
+
+
+
+/* memo */
+/* h2はすでにinline cssに書かれているため、ここに書いても影響しない*/
+h2 {
+    background-color: aqua;
+}
